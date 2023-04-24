@@ -1,0 +1,138 @@
+$display-font-weight: 700;
+$primary: #3a664c;
+$secondary: #699890;
+$success: #082d0b;
+$danger: #be3324;
+$warning: #c7b04b;
+$info: #1579dd;
+$light: #e8fffb;
+$dark: #010e00;
+
+$font-family-sans-serif : "Roboto Slab",
+Arial,
+Verdana,
+sans-serif;
+$body-bg: $light;
+$body-overflow-x: hidden;
+$body-margin : 0;
+$body-font-family : "Roboto Slab",
+Arial,
+Verdana,
+sans-serif;
+
+@import "~bootstrap/scss/bootstrap";
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark
+);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Amatic SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.75;
+    font-size: large;
+}
+
+a {
+    color: $primary;
+    text-decoration: none;
+}
+
+strong {
+    color: $primary;
+}
+
+a.active,
+a:active,
+a:focus,
+a:hover {
+    color: $primary;
+}
+
+.navbar {
+    background-color: $primary;
+}
+
+$navbar-dark-color : $primary;
+
+.navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: $warning;
+    font-family: 'Amatic SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    color: $warning;
+    font-family: 'Amatic SC', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+.navbar-brand.active,
+.navbar-brand:active,
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: $warning;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    color: white;
+    font-family: 'Amatic SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+    color: $primary;
+}
+
+.hero-image {
+    /* The image used */
+    background-color: $light;
+    /* Used if the image is unavailable */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.event {
+    font-weight: bold;
+}
+
+.toRemember {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+// Then add additional custom code here
